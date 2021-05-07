@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_swift_design_patterns_swift_design_patternsUITests : NSObject
+@end
+@implementation PodsDummy_Pods_swift_design_patterns_swift_design_patternsUITests
+@end
