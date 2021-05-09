@@ -16,8 +16,21 @@
                     <view key="view" contentMode="scaleToFill" id="MjK-cX-7Sr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ORW-hr-QCH">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Movies" id="mGn-oY-Ucj"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="QLF-IO-iax"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ORW-hr-QCH" firstAttribute="leading" secondItem="QLF-IO-iax" secondAttribute="leading" id="141-JX-2Ut"/>
+                            <constraint firstItem="ORW-hr-QCH" firstAttribute="top" secondItem="QLF-IO-iax" secondAttribute="top" id="WO4-fV-4NL"/>
+                            <constraint firstItem="ORW-hr-QCH" firstAttribute="trailing" secondItem="QLF-IO-iax" secondAttribute="trailing" id="vCs-zf-fSo"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o22-Mz-ZcG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
