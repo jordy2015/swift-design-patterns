@@ -43,6 +43,14 @@ class HomeTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "GoToMoviesViewControllerMVP", sender: nil)
+        switch indexPath.row {
+        case 0:
+            performSegue(withIdentifier: "GoToMoviesViewControllerMVP", sender: nil)
+        case 1:
+            performSegue(withIdentifier: "GoToMoviesViewControllerMVVM", sender: nil)
+        default:
+            print("No implemented")
+        }
+        
     }
 }

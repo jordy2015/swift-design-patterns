@@ -11,7 +11,6 @@
         <!--Design Patterns-->
         <scene sceneID="J1q-NM-7gM">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Dq3-dP-AfY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tableViewController id="OUY-7o-6QH" customClass="HomeTableViewController" customModule="swift_design_patterns" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6z5-ut-0uF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -35,25 +34,36 @@
                     <navigationItem key="navigationItem" title="Design Patterns" id="i65-zs-EYF"/>
                     <connections>
                         <segue destination="otf-5e-1Q0" kind="show" identifier="GoToMoviesViewControllerMVP" id="cSu-B8-nWN"/>
+                        <segue destination="7vu-OK-cXL" kind="show" identifier="GoToMoviesViewControllerMVVM" id="jtJ-zm-5g8"/>
                     </connections>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dq3-dP-AfY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-136" y="-635"/>
         </scene>
-        <!--Movies-->
+        <!--MoviesViewControllerMVP-->
         <scene sceneID="JZg-7I-gLY">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="MoviesViewControllerMVP" storyboardName="Movies" id="otf-5e-1Q0" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Movies" referencedIdentifier="MoviesViewControllerMVP" id="otf-5e-1Q0" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Jkq-RG-p8B"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tBG-8s-fTX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="733" y="-773"/>
+            <point key="canvasLocation" x="688" y="-773"/>
+        </scene>
+        <!--MoviesViewControllerMVVM-->
+        <scene sceneID="rSY-8h-tKD">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="MoviesViewControllerMVVM" storyboardName="Movies" referencedIdentifier="MoviesViewControllerMVVM" id="7vu-OK-cXL" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ZE9-xI-faN"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nVA-BG-tQh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="675" y="-854"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tph-DO-Fcw">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ly-Nd-rme" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="NTJ-nV-uiQ" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="p9r-wW-Vza">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -63,6 +73,7 @@
                         <segue destination="OUY-7o-6QH" kind="relationship" relationship="rootViewController" id="mW5-Z0-0Bs"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ly-Nd-rme" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1004" y="-635"/>
         </scene>
