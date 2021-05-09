@@ -6,5 +6,5 @@ target 'swift-design-patterns' do
   use_frameworks!
   pod 'Alamofire'
   pod 'CodableAlamofire'
-
+  pod 'AlamofireImage'
 end
