@@ -11,7 +11,7 @@ class HomeTableViewController: UITableViewController {
     
     var patternList = [(title: "MVP", description: "Model View Presenter"),
                        (title: "MVVM", description: "Model View ViewModel"),
-                       (title: "Observer", description: "Observer pattern")]
+                       (title: "Observer", description: "Observer pattern with RxSwift")]
       
     override func viewDidLoad() {
         super.viewDidLoad()
