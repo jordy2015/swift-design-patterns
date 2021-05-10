@@ -18,6 +18,7 @@
 		CD17056D2644A8FE00ABABF8 /* swift_design_patternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD17056C2644A8FE00ABABF8 /* swift_design_patternsUITests.swift */; };
 		CD53F660264870DA00C5910F /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD53F65F264870DA00C5910F /* MoviesViewModel.swift */; };
 		CD53F6652648737700C5910F /* MoviesMVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD53F6642648737700C5910F /* MoviesMVVMViewController.swift */; };
+		CD53F684264890F700C5910F /* MoviesRxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD53F683264890F700C5910F /* MoviesRxViewController.swift */; };
 		CD5B311E26473A1E000CCF13 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B311D26473A1E000CCF13 /* HomeTableViewController.swift */; };
 		CD5B31282647499C000CCF13 /* Movies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5B31272647499C000CCF13 /* Movies.storyboard */; };
 		CD5B313026474ABB000CCF13 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B312F26474ABB000CCF13 /* MoviesViewController.swift */; };
@@ -66,6 +67,7 @@
 		CD17056E2644A8FE00ABABF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD53F65F264870DA00C5910F /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
 		CD53F6642648737700C5910F /* MoviesMVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesMVVMViewController.swift; sourceTree = "<group>"; };
+		CD53F683264890F700C5910F /* MoviesRxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRxViewController.swift; sourceTree = "<group>"; };
 		CD5B311D26473A1E000CCF13 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		CD5B31272647499C000CCF13 /* Movies.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Movies.storyboard; sourceTree = "<group>"; };
 		CD5B312F26474ABB000CCF13 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
@@ -186,6 +188,14 @@
 			path = MVVM;
 			sourceTree = "<group>";
 		};
+		CD53F67F264890D200C5910F /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				CD53F683264890F700C5910F /* MoviesRxViewController.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
 		CD5B31222647487A000CCF13 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +228,7 @@
 		CD5B3125264748ED000CCF13 /* Movies */ = {
 			isa = PBXGroup;
 			children = (
+				CD53F67F264890D200C5910F /* Rx */,
 				CD53F65E2648700D00C5910F /* MVVM */,
 				CD5B3126264748FC000CCF13 /* MVP */,
 			);
@@ -473,6 +484,7 @@
 				CD89431B26450D4800639252 /* HttpClient.swift in Sources */,
 				CDB687AD264777200036372B /* MoviesPresenter.swift in Sources */,
 				CDB687C026477B070036372B /* WebServices.swift in Sources */,
+				CD53F684264890F700C5910F /* MoviesRxViewController.swift in Sources */,
 				CD17054F2644A8FC00ABABF8 /* ViewController.swift in Sources */,
 				CD17054B2644A8FC00ABABF8 /* AppDelegate.swift in Sources */,
 				CD8943142645070800639252 /* Movie.swift in Sources */,

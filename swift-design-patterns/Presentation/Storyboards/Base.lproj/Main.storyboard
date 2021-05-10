@@ -35,6 +35,7 @@
                     <connections>
                         <segue destination="otf-5e-1Q0" kind="show" identifier="GoToMoviesViewControllerMVP" id="cSu-B8-nWN"/>
                         <segue destination="7vu-OK-cXL" kind="show" identifier="GoToMoviesViewControllerMVVM" id="jtJ-zm-5g8"/>
+                        <segue destination="kIm-mh-Pci" kind="show" identifier="GoToMoviesViewControllerRx" id="NMT-ew-63T"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dq3-dP-AfY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -49,7 +50,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tBG-8s-fTX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="688" y="-773"/>
+            <point key="canvasLocation" x="704" y="-635"/>
+        </scene>
+        <!--MoviesViewControllerRx-->
+        <scene sceneID="m4O-Us-v5p">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Movies" referencedIdentifier="MoviesViewControllerRx" id="kIm-mh-Pci" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="XGM-yt-G0o"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tjn-iR-lBo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="696" y="-576"/>
         </scene>
         <!--MoviesViewControllerMVVM-->
         <scene sceneID="rSY-8h-tKD">
@@ -59,7 +70,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nVA-BG-tQh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="675" y="-854"/>
+            <point key="canvasLocation" x="713" y="-690"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tph-DO-Fcw">
