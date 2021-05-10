@@ -48,6 +48,8 @@ class HomeTableViewController: UITableViewController {
             performSegue(withIdentifier: "GoToMoviesViewControllerMVP", sender: nil)
         case 1:
             performSegue(withIdentifier: "GoToMoviesViewControllerMVVM", sender: nil)
+        case 2:
+            performSegue(withIdentifier: "GoToMoviesViewControllerRx", sender: nil)
         default:
             print("No implemented")
         }
