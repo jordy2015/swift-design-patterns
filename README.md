@@ -8,12 +8,13 @@ This application consumes the [IMDb](https://www.themoviedb.org/) services, and 
 
 - [x] MVP Pattern
 - [x] MVVP pattern
+- [x] Observer Pattern with RxSwift
 - [x] Get data from [IMDb](https://www.themoviedb.org/)
 - [x] API consumption
 - [x] Good practices
 
 ### ToDo
-- [ ] Observer Pattern
+
 - [ ] Unit test
 
 ## Tools
@@ -23,3 +24,5 @@ This application consumes the [IMDb](https://www.themoviedb.org/) services, and 
 | Alamofire | 5.1.0 |
 | CodableAlamofire | 1.2.1 |
 | AlamofireImage | 4.1.0 |
+| RxSwift | 5.0.0 |
+| RxCocoa | 5.0.0 |
