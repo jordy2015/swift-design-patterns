@@ -11,7 +11,7 @@ class HomeTableViewController: UITableViewController {
     
     var patternList = [(title: "MVP", description: "Model View Presenter"),
                        (title: "MVVM", description: "Model View ViewModel"),
-                       (title: "Observer", description: "Observer pattern")]
+                       (title: "Observer", description: "Observer pattern with RxSwift")]
       
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,6 +48,8 @@ class HomeTableViewController: UITableViewController {
             performSegue(withIdentifier: "GoToMoviesViewControllerMVP", sender: nil)
         case 1:
             performSegue(withIdentifier: "GoToMoviesViewControllerMVVM", sender: nil)
+        case 2:
+            performSegue(withIdentifier: "GoToMoviesViewControllerRx", sender: nil)
         default:
             print("No implemented")
         }

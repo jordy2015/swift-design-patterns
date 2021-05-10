@@ -7,4 +7,6 @@ target 'swift-design-patterns' do
   pod 'Alamofire'
   pod 'CodableAlamofire'
   pod 'AlamofireImage'
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
 end
